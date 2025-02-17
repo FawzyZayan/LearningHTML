@@ -43,7 +43,8 @@
 
      <header>AI ACCESSORIES</header>
      <nav>Robots</nav>
-     <nav>Household</nav>
+     <nav>Books</nav>
+     <nav>Listening To Videos</nav>
      <section>
       <section>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1S37tyNs4fxg5k4RoKZL1zK7GB2RI-m8rQg&s" alt="">
@@ -101,6 +102,8 @@
         </tfoot>
       </table>
 
+      <br>
+
       <!--
         scr => Source
         alt => Alternate Text
@@ -132,8 +135,263 @@
 
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDVYiJg_1JimL1dsXiKcaOWCvfqRvI1fpdQ&s" alt="AI ACCESORIES"/>
 
-      <audio controls>
-        <source src="Media/112.mp3" type="audio/mpeg">
-      </audio>
 
-      &copy;
+
+      <form method="post">
+
+        <div>
+         <label>Username</label>
+         <input 
+          type= "text"
+          required
+          placeholder= "Your Name"
+          name= "Username"
+          value= "Fawzy">
+        </div>
+
+        <br>
+
+        <div>
+         <label>E-mail</label>
+         <input 
+          type= "email"
+          required
+          placeholder= "Your E-mail"
+          name= "E-mail"
+          value= "fawzy.mzayan@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+         <label>Password</label>
+         <input 
+          type= "password"
+          required
+          placeholder= "Enter A Strong Password"
+          name= "Password"
+          minlength= "8">
+        </div>
+
+        <br>
+
+        <div>
+         <input id=mac type="checkbox" name="os" value="Mac">
+         <label for="mac">Mac</label>
+        </div>
+      
+        <div>
+          <input id=win type="checkbox" name="os" value="Windows">
+         <label for="win">Windows</label>
+        </div>
+
+        <div>
+          <input id="lin" type="checkbox" name="os" value="Linux">
+         <label for="lin">Linux</label>
+        </div>
+
+
+        <br>
+
+
+        <div>
+          <input id=mac type="radio" name="os" value="Mac">
+          <label for="mac">Mac</label>
+        </div>
+ 
+ 
+        <div>
+           <input id=win type="radio" name="os" value="Windows">
+          <label for="win">Windows</label>
+         </div>
+ 
+         <div>
+           <input id="lin" type="radio" name="os" value="Linux">
+          <label for="lin">Linux</label>
+        </div>
+
+        <br>
+
+        <div>
+
+          <label for="book">Choose a Book: </label>
+          <select name="book" id="book" multiple>
+
+            <optgroup label="Police Books">
+              <option value="1">Book 1</option>
+              <option value="2">Book 2</option>
+              <option value="3">Book 3</option>
+            </optgroup>
+
+            <optgroup label="Romantic Books">
+              <option value="4">Book 4</option>
+              <option value="5">Book 5</option>
+              <option value="6">Book 6</option>
+            </optgroup>
+
+          </select>
+
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Upload</label>
+          </div>
+          <input type="file">
+
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Search</label>
+          </div>
+          <input type="search">
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>URL</label>
+          </div>
+          <input type="url">
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Date</label>
+          </div>
+          <input type="date">
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Month</label>
+          </div>
+          <input type="month">
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Time</label>
+          </div>
+          <input type="time">
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+
+
+        <div>
+          <div>
+            <label>Data List</label>
+          </div>
+          <input list="programming" name="pro">
+
+          <datalist id="programming">
+            <option value="PYTHON">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="PHP">
+            <option value="JAVASCRIPT">
+            <option value="JAVA">
+            <option value="C#">
+            <option value="C++">
+          </datalist>
+        </div>
+
+
+        <br>
+        <hr>
+        <br>
+        
+
+
+        <div>
+          <textarea name="" cols="40" rows="10" placeholder="Write What You Want."></textarea>
+        </div>
+
+
+        
+        <br>
+        <hr>
+        <br>
+
+
+      </form>
+
+
+      <form>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Save">
+      </form>
+
+
+      <!--
+        q => Put "" Befor and After the Sentence you Wrote
+        blockquote =>  The Sentence You Wrote Take All the Line
+        button => You Cliick On a Button To Open Another Page
+        wbr => Break
+        bdi => بيعزل اللي المحطوط فيه
+      -->
+
+      <q>YOU MUST LEARN HTML</q>
+
+      <blockquote>YOU MUST LEARN HTML</blockquote>
+
+      <button>Click</button>
+
+
+      <!--
+        pre => It Will Write What You Wrote, ex: HI
+                                                 HOW ARE YOU
+      -->
+
+
+      <code>
+
+      </code>
+
+
+      <div>
+        &copy;
+      </div>
+
+  </body>
+
+</html>  
