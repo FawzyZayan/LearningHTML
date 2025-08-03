@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <meta name="DESCRIPTION"
+    content="We Will Put A Form In The Page">
+    <style></style>
+    <script></script>
+    <link rel="stylesheet" href="">
+  </head>
+
+  <body>
+    
+    <form method="post" action="test.py">
+      <label>Username</label><br>
+      <input
+      type="text"
+      required
+      placeholder="Enter Your Name"
+      name="Username"
+      >
+
+      <hr>
+
+      <label>E-mail</label><br>
+      <input
+      type="email"
+      required
+      placeholder="Enter Your E-mail"
+      name="E-mail"
+      >
+
+      <hr>
+
+      <label>Password</label><br>
+      <input
+      type="password"
+      placeholder="Enter A Strong Password"
+      name="Password"
+      >
+
+      <hr>
+
+      <label>Mobile</label><br>
+      <input
+      type="number"
+      placeholder="+20100 (234) 123"
+      name="Mobile"
+      >
+
+      <hr>
+
+      <label>Subject</label><br>
+      <input
+      type="text"
+      placeholder="Enter Your Subject"
+      name="Subject"
+      >
+
+      <input
+      type="hidden"
+      value="8437129" name="testHid"
+      >
+
+      <div>
+        <br>
+        <input type="reset" value="Empty Form">
+        <input type="submit" value="Send Data">
+      </div>
+    </form>
+
+
+  </body>
+
+</html>

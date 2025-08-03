@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>TABLE</title>
+    <meta name="DESCRIPTION"
+     content="Only HTML In A Table">
+     <style>
+      .square{
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        display: inline-flex;
+        color: white;
+        font-size: 0.5em;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .black {
+        background-color: black;
+      }
+     </style>
+     <script></script>
+     <link rel="stylesheet" href="">
+  </head>
+
+  <body>
+    
+    <table border="1">
+
+      <thead>
+        <tr>
+          <th>Group</th>
+          <th>Avatar</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Character</th>
+          <th>Profile</th>
+        </tr>
+      </thead>
+
+      <thead>
+        <tr>
+          <td rowspan="2">Ninja &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+          <td><span class="square red">40×40</span></td>
+          <td>Osama<div>Mohammed</div></td>
+          <td>o1@nn.sa<hr>o2@nn.sa</td>
+          <td>&copy;</td>
+          <td><a href="https://profile.com/" target="_blank">Profile</a></td>
+        </tr>
+
+        <tr>
+          <td><span class="square blue">40×40</span></td>
+          <td>Shady<div>Nabil</div></td>
+          <td>s@nn.sa</td>
+          <td>&trade;</td>
+          <td><a href="https://profile.com/" target="_blank">Profile</a></td>
+        </tr>
+
+        <tr>
+          <td>Monsters</td>
+          <td><span class="square black">40×40</span></td>
+          <td>Mohammed<div>Ibrahim</div></td>
+          <td>m@nn.sa</td>
+          <td>&reg;</td>
+          <td><a href="https://profile.com/" target="_blank">Profile</a></td>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <tr>
+          <td colspan="5">Total Members</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+  </body>
+
+</html>
