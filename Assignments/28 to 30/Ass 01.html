@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>3 Labels</title>
+    <title>Biggest Form</title>
     <meta name="DESCRIPTION"
     content="We Will Put 3 Labels In The Page">
     <style></style>
@@ -13,6 +13,7 @@
   </head>
 
   <body>
+
     <form method="get">
       <input type="hidden"
       value="b92f1fc2fce391ad7af633723afd3055"
@@ -33,12 +34,108 @@
       name="E-mail"
       value="o@o.com">
 
+      <br>
+      <hr>
+      <br>
+
+      <div>
+        <name>Skills</name>
+      </div>
+
+      <div>
+        <input id="PRS" type="checkbox" name="os" value="Problem Solving">
+        <label for="PRS">Problem Solving</label>
+      </div>
+
+      <div>
+        <input id="LOT" type="checkbox" name="os" value="Logical Thinking" checked>
+        <label for="LOT">Logical Thinking</label>
+      </div>
+
+      <div>
+        <input id="ADS" type="checkbox" name="os" value="Advanced Search">
+        <label for="ADS">Advanced Search</label>
+
+      <div>
+        <input id="ANA" type="checkbox" name="os" value="Analysis">
+        <label for="ANA">Analysis</label>
+      </div>
+
+      <div>
+        <input id="PLA" type="checkbox" name="os" value="Planning">
+        <label for="PLA">Planning</label>
+      </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+          <name>Jobs</name>
+        </div>
+
+        <div>
+          <input id="FED" type="radio" name="os1" value="Front-End Developer">
+          <label for="FED">Front-End Developer</label>
+        </div>
+
+        <div>
+          <input id="BED" type="radio" name="os1" value="Back-End Developer">
+          <label for="BED">Back-End Developer</label>
+        </div>
+
+        <div>
+          <input id="BUA" type="radio" name="os1" value="Business Analyst">
+          <label for="BUA">Business Analyst</label>
+        </div>
+
+        <div>
+          <input id="PRM" type="radio" name="os1" value="Project Manager" checked>
+          <label for="PRM">Project Manager</label>
+        </div>
+
+        <div>
+          <input id="SCM" type="radio" name="os1" value="Scrum Master">
+          <label for="SCM">Scrum Master</label>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+          <label for="PROLA">Choose Book: </label>
+          <select name="Book" id="PROLA">
+
+            <optgroup label="PHP">
+              <option value="PHP 1">v5.0</option>
+              <option value="PHP 2">v7.0</option>
+              <option value="PHP 3">v8.0</option>
+            </optgroup>
+
+            <optgroup label="Python">
+              <option value="Python 1">2.0</option>
+              <option value="Python 2">3.0</option>
+              <option value="Python 3">3.9</option>
+            </optgroup>
+
+          </select>
+
+        </div>
+
+        <hr>
+
+        <div>
+          <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming" cols="40" rows="10"></textarea>
+        </div>
+
       <div>
         <br>
         <input type="reset" value="Empty">
         <input type="submit" value="Send">
       </div>
     </form>
+
   </body>
 
 </html>
